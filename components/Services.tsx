@@ -5,8 +5,8 @@ const Services = () => {
     return (
         <div className="pt-[5rem] pb-[3rem] " id="services">
             <div className="text-center">
-                <p className="heading_mini">My Services</p>
-                <h1 className="heading_sec">Check My <span className="text-priamry">Services</span></h1>
+                <h1 className="heading_sec">My Services</h1>
+                <p className="heading_mini">Check My <span className="text-priamry">Services</span></p>
             </div>
             <div className="pt-[5rem] w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[3rem] items-center">
                 <div>

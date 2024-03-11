@@ -51,6 +51,7 @@ const Contact = () => {
         <div className="pt-[5rem] pb-[3rem]" id="contact">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center w-[80%] mx-auto ">
                 <div>
+                    <h1 className="heading_sec">Contact Me</h1>
                     <p className="heading_mini">Get in Touch</p>
                     <h1 className="heading_sec">Create your <span className="text-primary">
                         business</span>{" "}website</h1>

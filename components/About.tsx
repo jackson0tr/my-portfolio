@@ -6,8 +6,8 @@ const About = () => {
         <div className="mt-[-4rem]  pb-[3rem]" id="about">
             <div className="w-[80%] pt-[5rem] sm:pt-[7rem] md:pt-[10rem] mx-auto grid items-center grid-cols-1 lg:grid-cols-2 gap-[2rem] ">
                 <div>
-                    <p className="heading_mini">About Me</p>
-                    <h1 className="heading_sec">Professional Web Developer <span className="text-primary">MERN Stack</span></h1>
+                    <h1 className="heading_sec">About Me</h1>
+                    <p className="heading_mini">Professional Web Developer <span className="text-primary">MERN Stack</span></p>
                     <p className="text-[15px] mt-[1.3rem] text-white opacity-75"> 
                         Hello, Iam Mahmoud Mohamed. Iam a Web Developer <span className="text-[16px] md:text-[18px] text-primary">
                         MERN Stack</span> Developer. Iam 20 years old.
