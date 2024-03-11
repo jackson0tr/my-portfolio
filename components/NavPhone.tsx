@@ -1,4 +1,5 @@
 import { XMarkIcon } from "@heroicons/react/20/solid";
+import Link from "next/link";
 import React from "react";
 
 interface Props {
@@ -18,22 +19,22 @@ const NavPhone = ({navActive,closeNav}:Props)=> {
             <ul className={`text-white fixed ${navOpendAnimation} flex items-center flex-col h-full trasnform transition-all
                     duration-300 delay-300 w-[60%] bg-black space-y-14 z-[10006] justify-center`}>
             <li>
-                <a className="nav_style text-[25px] sm:text-[30px] " href="/">Home</a>
+                <Link className="nav_style text-[25px] sm:text-[30px] " href="/">Home</Link>
             </li>
             <li>
-                <a className="nav_style text-[25px] sm:text-[30px] " href="#about">About</a>
+                <Link className="nav_style text-[25px] sm:text-[30px] " href="#about">About</Link>
             </li>
             <li>
-                <a className="nav_style text-[25px] sm:text-[30px] " href="#services">Services</a>
+                <Link className="nav_style text-[25px] sm:text-[30px] " href="#services">Services</Link>
             </li>
             <li>
-                <a className="nav_style text-[25px] sm:text-[30px] " href="#skills">Skills</a>
+                <Link className="nav_style text-[25px] sm:text-[30px] " href="#skills">Skills</Link>
             </li>
             <li>
-                <a className="nav_style text-[25px] sm:text-[30px] " href="#projects">Projects</a>
+                <Link className="nav_style text-[25px] sm:text-[30px] " href="#projects">Projects</Link>
             </li>
             <li>
-                <a className="nav_style text-[25px] sm:text-[30px] " href="#contact">Contact</a>
+                <Link className="nav_style text-[25px] sm:text-[30px] " href="#contact">Contact</Link>
             </li>
             <XMarkIcon onClick={closeNav} className="absolute top-[-1.4rem] right-[1.4rem] w-[2.2rem] h-[2.2rem] text-white " />
         </ul>

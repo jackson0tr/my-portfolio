@@ -52,7 +52,7 @@ const Contact = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center w-[80%] mx-auto ">
                 <div>
                     <p className="heading_mini">Get in Touch</p>
-                    <h1 className="heading_sec">Let's Create your <span className="text-primary">
+                    <h1 className="heading_sec">Create your <span className="text-primary">
                         business</span>{" "}website</h1>
                 </div>
                                

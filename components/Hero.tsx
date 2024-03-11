@@ -10,7 +10,7 @@ const Hero = () =>{
                         <h1 className="text-[#c4cfde] mb-[1.3rem]">My Portfolio</h1>
                         <div>
                             <h1 className="xl:text-[50px] lg:text-[40px] sm:text-[35px] text-[25px] font-semibold leading-[2.4rem] text-white">
-                                Hi,I'm <span className="text-primary">Mahmoud</span>
+                                Hi,Iam <span className="text-primary">Mahmoud</span>
                             </h1>
                             <JobAnimation/>
                         </div>
@@ -18,7 +18,7 @@ const Hero = () =>{
                             <button className="relative flex h-[50px] w-40 items-center justify-center font-semibold
                              overflow-hidden bg-primary text-white shadow-2xl transition-all before:duration-500 before:absolute 
                              before:h-0 before:w-0 before:rounded-full hover:text-primary before:bg-[#c4cfde] before:ease-out hover:before:h-56 hover:before:w-56">
-                                <a href="#contact" className="relative no-underline z-10">Let's Work</a>
+                                <a href="#contact" className="relative no-underline z-10">Work Together</a>
                             </button>
                         </div>
                     </div>
