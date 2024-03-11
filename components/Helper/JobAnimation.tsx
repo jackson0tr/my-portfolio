@@ -12,6 +12,8 @@ const JobAnimation = () => {
         1000,
         'MERN Stack Dev',
         1000,
+        'Next Developer',
+        1000,
       ]}
       wrapper="span"
       speed={50}

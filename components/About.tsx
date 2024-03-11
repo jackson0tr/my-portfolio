@@ -12,7 +12,7 @@ const About = () => {
                         Hello, Iam Mahmoud Mohamed. Iam a Web Developer <span className="text-[16px] md:text-[18px] text-primary">
                         MERN Stack</span> Developer. Iam 20 years old.
                         I can create a customize website using my skills.
-                        I studying at Canadian International College.
+                        I study at Canadian International College.
                     </p>
                     <div className="mt-[2rem] space-y-3">
                         <div className="flex items-end space-x-4">
