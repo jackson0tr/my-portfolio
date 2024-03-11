@@ -1,33 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Poppins:wght@200;300;400;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@layer components {
+    .nav_style{
+        @apply relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] 
+        after:bg-[#3582c4] text-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition 
+        after:duration-300 after:origin-right  
+    }
+    .custom_bg{
+        background: linear-gradient(109.6deg,rgb(36,45,57) 11.2%, rgb(16,37,60)51.2%,rgb(0,0,0) 98.6%);
+    }
+    .custom_skill{
+        background: linear-gradient(to top,#fff1eb 0%,#ace0f9 100%);
+    }
+    .custom_clr{
+        color: linear-gradient(109.6deg,rgb(36,45,57) 11.2%, rgb(16,37,60)51.2%,rgb(0,0,0) 98.6%);
+    }
+    .heading_mini{
+        @apply text-[17px] text-white opacity-75
+    }
+    .heading_sec{
+        @apply mt-[0.6rem] p-2 sm:p-0 leading-[3.5rem] text-white text-[27px] md:text-[30px] lg:text-[38px] xl:text-[45px] 
+    }
+    
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.custom_card:before{
+    content: '';
+    top: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    color: #3582c4;
+    background: linear-gradient(to top,#fff1eb 0%,#ace0f9 100%);
+    background-blend-mode: multiply;
+    clip-path: circle(50px at 95% 4%);
+    border-radius: 0.5rem;
+    transition: all 0.8s;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.custom_card:hover::before{
+    clip-path: circle(1000px at 95% 4%);
+    z-index: -1000;
+    color: #3582c4;
 }
