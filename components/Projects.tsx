@@ -17,7 +17,7 @@ const Projects = () =>{
             url='https://blog-44.vercel.app/' />
 
             <ProjectsCard title='Bonic' tech1='React' tech2='Sass' tech3='i18next' 
-            tech4='Dark theme' tech5='OOP' image='/images/bonic-65ecacaee63e4.webp' 
+            tech4='OOP' tech5='Dark Mode' image='/images/bonic-65ecacaee63e4.webp' 
             caption="Bonic an agency website landing page and blog page with two languages Arabic and English "
             url='https://bonic.vercel.app/'  tech6='SEO' />
 

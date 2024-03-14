@@ -19,12 +19,14 @@ const ProjectsCard = ({title,tech1,tech2,tech3,tech4,tech5,tech6,caption,image,u
         <div className="grid gird-cols-1 w-[80%] mx-auto pt-[5rem] lg:grid-cols-2 gap-10 items-center">
             <div className="p-4 rounded-xl relative cursor-pointer hover:-rotate-6 transform transition-all
              duration-200 custom_skill shadow-md">
+                <a href={url}>
                 <Image 
                 src={`${image}`} 
                 alt={title} 
                 width={500} 
                 height={500} 
                 className="object-contain rounded-xl mx-auto shadow-md " />
+                </a>
             </div>
             <div>
                 <h1 className="text-[25px] text-white">{title}</h1>
