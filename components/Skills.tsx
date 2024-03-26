@@ -50,6 +50,18 @@ const Skills = () =>{
                         <div>
                             <SkillsCard image='/images/redux.svg' title='Redux' />
                         </div>
+                        <div>
+                            <SkillsCard image='/images/express.svg' title='Express' />
+                        </div>
+                        <div>
+                            <SkillsCard image='/images/docker.svg' title='Docker' />
+                        </div>
+                        <div>
+                            <SkillsCard image='/images/github.svg' title='Github' />
+                        </div>
+                        <div>
+                            <SkillsCard image='/images/cloudinary.svg' title='Cloudinary' />
+                        </div>
                     </div>
                 </div>
             </div>
