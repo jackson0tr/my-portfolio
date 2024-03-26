@@ -10,7 +10,7 @@ const Skills = () =>{
                     <p className="heading_mini">Check My <span className="text-primary">Skills</span></p>
                 </div>
                 <div className="col-span-4">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:gird-cols-3 xl:grid-cols-4 gap-[1rem] items-center">
+                    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:gird-cols-3 xl:grid-cols-4 gap-[1rem] items-center">
                         <div>
                             <SkillsCard image='/images/react.svg' title='React' />
                         </div>
@@ -31,6 +31,24 @@ const Skills = () =>{
                         </div>
                         <div>
                             <SkillsCard image='/images/mongo.svg' title='Mongo' />
+                        </div>
+                        <div>
+                            <SkillsCard image='/images/bootstrap.svg' title='Bootstrap' />
+                        </div>
+                        <div>
+                            <SkillsCard image='/images/aws.svg' title='AWS' />
+                        </div>
+                        <div>
+                            <SkillsCard image='/images/prisma.svg' title='Prisma' />
+                        </div>
+                        <div>
+                            <SkillsCard image='/images/redis.svg' title='Redis' />
+                        </div>
+                        <div>
+                            <SkillsCard image='/images/sass.svg' title='SASS' />
+                        </div>
+                        <div>
+                            <SkillsCard image='/images/redux.svg' title='Redux' />
                         </div>
                     </div>
                 </div>
