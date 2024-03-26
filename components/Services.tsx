@@ -11,7 +11,7 @@ const Services = () => {
             <div className="pt-[5rem] w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[3rem] items-center">
                 <div>
                     <ServicesCard 
-                    title='Fronted Development' 
+                    title='Frontend Development' 
                     num='01' 
                     obj1="Professional Design" 
                     obj2="Responsive Screens" 
