@@ -1,5 +1,7 @@
 import { EnvelopeIcon } from "@heroicons/react/16/solid";
+import Link from "next/link";
 import React from "react";
+import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -10,8 +12,16 @@ const Footer = () => {
                         <span className="text-[30px] md:text-[40px] text-primary">Mahmoud Mohamed</span>
                     </div>
                     <div className="flex items-center mt-[1rem] space-x-2">
-                    <EnvelopeIcon className="w-[1rem] h-[1rem] text-primary " />
-                    <p className=" text-primary underline font-semibold  ">dev.mahmoudmohamed@gmail.com</p>
+                    <Link href={`mailto:dev.mahmoudmohamed@gmail.com`}>
+                        <EnvelopeIcon className="w-[1rem] h-[1rem] text-primary " />
+                        <p className=" text-primary underline font-semibold ">dev.mahmoudmohamed@gmail.com</p>
+                    </Link>
+                    </div>
+                    <div className="flex items-center mt-[1rem] space-x-2">
+                    <Link href='https://www.linkedin.com/in/mahmoudmohamed0tr'>
+                        <FaLinkedin className="w-[1rem] h-[1rem] text-primary " />
+                        <p className=" text-primary underline font-semibold ">Mahmoud Mohamed</p>
+                    </Link>
                     </div>
                 </div>
             </div>
