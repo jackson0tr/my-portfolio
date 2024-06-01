@@ -1,30 +1,32 @@
-import { CheckIcon } from "@heroicons/react/16/solid";
 import React from "react";
+import { CheckIcon } from "@heroicons/react/16/solid";
+
 
 const About = () => {
-    return(
+    return (
         <div className="mt-[-4rem]  pb-[3rem]" id="about">
             <div className="w-[80%] pt-[5rem] sm:pt-[7rem] md:pt-[10rem] mx-auto grid items-center grid-cols-1 lg:grid-cols-2 gap-[2rem] ">
+
                 <div>
                     <h1 className="heading_sec">About Me</h1>
                     <p className="heading_mini">Professional Web Developer <span className="text-primary">MERN Stack</span></p>
-                    <p className="text-[15px] mt-[1.3rem] text-white opacity-75"> 
+                    <p className="text-[15px] mt-[1.3rem] text-white opacity-75">
                         Hello, Iam Mahmoud Mohamed. Iam a Web Developer <span className="text-[16px] md:text-[18px] text-primary">
-                        MERN Stack</span> Developer. Iam 20 years old.
+                            MERN Stack</span> Developer. Iam 20 years old.
                         I can create a customize website using my skills.
                         I study at Canadian International College.
                     </p>
                     <div className="mt-[2rem] space-y-3">
                         <div className="flex items-end space-x-4">
-                            <CheckIcon className="w-[2rem] h-[2rem] text-primary "/>
+                            <CheckIcon className="w-[2rem] h-[2rem] text-primary " />
                             <p className="text-[18px] text-white">Frontend Development</p>
                         </div>
                         <div className="flex items-end space-x-4">
-                            <CheckIcon className="w-[2rem] h-[2rem] text-primary "/>
+                            <CheckIcon className="w-[2rem] h-[2rem] text-primary " />
                             <p className="text-[18px] text-white">Backend Development</p>
                         </div>
                         <div className="flex items-end space-x-4">
-                            <CheckIcon className="w-[2rem] h-[2rem] text-primary "/>
+                            <CheckIcon className="w-[2rem] h-[2rem] text-primary " />
                             <p className="text-[18px] text-white">MERN Stack Development</p>
                         </div>
                     </div>

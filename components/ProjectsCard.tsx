@@ -40,7 +40,7 @@ const ProjectsCard = ({title,tech1,tech2,tech3,tech4,tech5,tech6,caption,image,u
                     <h1 className="px-6 py-3 custom_skill text-primary rounded-lg text-center">{tech4}</h1>
                     <h1 className="px-6 py-3 custom_skill text-primary rounded-lg text-center">{tech5}</h1>
                     <h1 className="px-6 py-3 custom_skill text-primary rounded-lg text-center">{tech6}</h1>
-                <button className="relative flex h-[50px] w-40 items-center justify-center font-semibold
+                <button className="relative btn flex h-[50px] w-40 items-center justify-center font-semibold
                     overflow-hidden bg-primary text-white shadow-2xl transition-all before:duration-500 before:absolute 
                     before:h-0 before:w-0 before:rounded-full hover:text-primary before:bg-[#c4cfde] before:ease-out hover:before:h-56 hover:before:w-56">
                     <a href={url} className="relative z-10 no-underline">Live Demo</a>

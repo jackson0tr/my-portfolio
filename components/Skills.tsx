@@ -54,6 +54,9 @@ const Skills = () =>{
                             <SkillsCard image='/images/express.svg' title='Express' />
                         </div>
                         <div>
+                            <SkillsCard image='/images/nestjs.svg' title='Nest' />
+                        </div>
+                        <div>
                             <SkillsCard image='/images/docker.svg' title='Docker' />
                         </div>
                         <div>
@@ -73,6 +76,15 @@ const Skills = () =>{
                         </div>
                         <div>
                             <SkillsCard image='/images/cloudinary.svg' title='Cloudinary' />
+                        </div>
+                        <div>
+                            <SkillsCard image='/images/graphql.svg' title='GraphQL' />
+                        </div>
+                        <div>
+                            <SkillsCard image='/images/sequelize.svg' title='Sequelize' />
+                        </div>
+                        <div>
+                            <SkillsCard image='/images/mysql.svg' title='MySQL' />
                         </div>
                     </div>
                 </div>

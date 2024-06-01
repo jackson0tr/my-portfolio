@@ -11,7 +11,7 @@ const Projects = () =>{
                 <p className="heading_mini">Recent Work</p>
             </div>
             <ProjectsCard title='US News' tech1='React' tech2='Redux' tech3='Express' 
-            tech4="Mongo" tech5='tailwind' tech6='Node' image='/images/modfiy-65ec8e3f0256a.webp'
+            tech4="Mongo" tech5='Tailwind' tech6='Node' image='/images/modfiy-65ec8e3f0256a.webp'
             caption="US News it's a biggest newsletter in texas. Has founded by DEV/ Mahmoud Mohamed, 
             To create his project newsletter and put it in protfolio. There is Admin dashboard"
             url='https://blog-44.vercel.app/' />
