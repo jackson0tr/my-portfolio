@@ -9,10 +9,10 @@ const About = () => {
 
                 <div>
                     <h1 className="heading_sec">About Me</h1>
-                    <p className="heading_mini">Professional Web Developer <span className="text-primary">MERN Stack</span></p>
+                    <p className="heading_mini">Professional Web Developer <span className="text-primary">Full Stack</span></p>
                     <p className="text-[15px] mt-[1.3rem] text-white opacity-75">
                         Hello, Iam Mahmoud Mohamed. Iam a Web Developer <span className="text-[16px] md:text-[18px] text-primary">
-                            MERN Stack</span> Developer. Iam 20 years old.
+                            Full Stack</span> Developer. Iam 20 years old.
                         I can create a customize website using my skills.
                         I study at Canadian International College.
                     </p>
@@ -27,7 +27,7 @@ const About = () => {
                         </div>
                         <div className="flex items-end space-x-4">
                             <CheckIcon className="w-[2rem] h-[2rem] text-primary " />
-                            <p className="text-[18px] text-white">MERN Stack Development</p>
+                            <p className="text-[18px] text-white">Full Stack Development</p>
                         </div>
                     </div>
                 </div>

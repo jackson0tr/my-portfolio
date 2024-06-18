@@ -33,7 +33,7 @@ const Hero = () =>{
                         </motion.div>
                         <motion.div variants={item}>
                             <h1 className="xl:text-[50px] lg:text-[40px] sm:text-[35px] text-[25px] font-semibold leading-[2.4rem] text-white">
-                                Hi,Iam <span className="text-primary">Mahmoud</span>
+                                Hi,I'm <span className="text-primary">Mahmoud</span>
                             </h1>
                             <JobAnimation/>
                         </motion.div>
