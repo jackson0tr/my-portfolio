@@ -11,8 +11,8 @@ const About = () => {
                     <h1 className="heading_sec">About Me</h1>
                     <p className="heading_mini">Professional Web Developer <span className="text-primary">Full Stack</span></p>
                     <p className="text-[15px] mt-[1.3rem] text-white opacity-75">
-                        Hello, Iam Mahmoud Mohamed. Iam a Web Developer <span className="text-[16px] md:text-[18px] text-primary">
-                            Full Stack</span> Developer. Iam 20 years old.
+                        Hello, Iam Mahmoud Mohamed. I'm a Web Developer <span className="text-[16px] md:text-[18px] text-primary">
+                            Full Stack</span> Developer. I'm 20 years old.
                         I can create a customize website using my skills.
                         I study at Canadian International College.
                     </p>
